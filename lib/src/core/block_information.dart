@@ -22,7 +22,7 @@ class BlockInformation {
         hexToDartInt(json['timestamp'] as String) * 1000,
         isUtc: true,
       ),
-      raw: json.
+      raw: json,
     );
   }
 
